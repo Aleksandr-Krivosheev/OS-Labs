@@ -1,0 +1,150 @@
+ 1877  clear
+ 1878  ./a.out 
+ 1879  hexdump a.out 
+ 1880  hexdump -C a.out 
+ 1881  hexdump -Co a.out 
+ 1882  cler
+ 1883  clear
+ 1884  hexdump -Cd a.out 
+ 1885  hexdump -C a.out 
+ 1886  hd a.out 
+ 1887  hd 1.c
+ 1888  hd 1.cpp 
+ 1889  cat 1.cpp 
+ 1890  ping 8.8.8.8
+ 1891  sudo nano /etc/sysctl.conf 
+ 1892  flatpak install flathub com.google.Chrome
+ 1893  ping 8.8.8.8
+ 1894  mc
+ 1895  su -
+ 1896  su 
+ 1897  sudo apt update 
+ 1898  sudo apt upgrade 
+ 1899  git init 
+ 1900  git status 
+ 1901  git add Password.kdbx 
+ 1902  git commit -m "first pass"
+ 1903  git status 
+ 1904  git remote add origin git@github.com:Aleksandr-Krivosheev/passwd.git
+ 1905  git push 
+ 1906  git push -u origin main
+ 1907  git push -u origin master 
+ 1908  ping 8.8.8.8
+ 1909  git status 
+ 1910  git commit -m "vk pass"
+ 1911  git push -u origin main
+ 1912  git push -u origin master 
+ 1913  sudo snap refresh 
+ 1914  ping 8.8.8.8
+ 1915  sudo snap refresh 
+ 1916  ping 8.8.8.8
+ 1917  ls
+ 1918  history 
+ 1919  clear
+ 1920  cd /home/svk/HDD/svk/МЭИ/Сем7/OS/Prepod/os-labs/labs-2023/lab2/
+ 1921  ls
+ 1922  less labdata2.log 
+ 1923  cp -v labdata2.log /home/svk/HDD/svk/МЭИ/Сем7/OS/Labs/OS-Labs/lab2/
+ 1924  less labdata2.log 
+ 1925  less -n labdata2.log 
+ 1926  less labdata2.log 
+ 1927  less -N labdata2.log 
+ 1928  mkdir Аватар:_Легенда_об_Аанге
+ 1929  cd Аватар\:_Легенда_об_Аанге/
+ 1930  ls
+ 1931  cd..
+ 1932  cd ..
+ 1933  ls
+ 1934  rm Аватар\:_Легенда_об_Аанге/
+ 1935  ls
+ 1936  rmdir Аватар\:_Легенда_об_Аанге/
+ 1937  cat -n labdata2.log | grep [1239-1245]
+ 1938  cat -n labdata2.log | grep -E [1239-1245]
+ 1939  cat -n labdata2.log | grep - [1239-1245]
+ 1940  cat -n labdata2.log | grep -e [1239-1245]
+ 1941  cat -n labdata2.log | grep -e [1239][1245]
+ 1942  cat -n labdata2.log | grep -e [1239]-[1245]
+ 1943  cat -n labdata2.log | grep '[12][3-4][0-5]
+ 1944  '
+ 1945  cat -n labdata2.log | grep '[1][2][3-4][0-5]'
+ 1946  cat -n labdata2.log | grep '1235-1245'
+ 1947  cat -n labdata2.log | grep 1235
+ 1948  cat -n labdata2.log | grep 1236
+ 1949  cat -n labdata2.log | grep 1237
+ 1950  cat -n labdata2.log | grep 1239
+ 1951  cat -n labdata2.log | grep '[1][2][3-4][9012345]'
+ 1952  cat -n labdata2.log | head -1245
+ 1953  cat -n labdata2.log | tail -n1245
+ 1954  cat -n labdata2.log | sed -n 1239,1245p.
+ 1955  cat labdata2.log | sed -n 1239,1245p.
+ 1956  cat labdata2.log | sed -n 1239,1245p
+ 1957  cat -n labdata2.log | sed -n 1239,1245p
+ 1958  cat -n labdata2.log | sed -n 1239,1245p > /home/svk/HDD/svk/МЭИ/Сем7/OS/Labs/OS-Labs/lab2/task.txt
+ 1959  cd ../../../
+ 1960  cd ../../
+ 1961  cd OS/Labs/OS-Labs/
+ 1962  ls
+ 1963  cd lab2/
+ 1964  cat task.txt 
+ 1965  mkdir Аватар:_Легенда_об_Аанге
+ 1966  cd Аватар\:_Легенда_об_Аанге/
+ 1967  ls
+ 1968  mkdir Аанг
+ 1969  mkdir Азула
+ 1970  mkdir Зуко
+ 1971  touch Аанг/info.txt
+ 1972  vi Аанг/info.txt 
+ 1973  nano Аанг/info.txt 
+ 1974  nano Азула/info.txt 
+ 1975  nano Зуко/info.txt 
+ 1976  ды
+ 1977  ls
+ 1978  ls Зуко/
+ 1979  ls
+ 1980  cd ..
+ 1981  cat * Аватар\:_Легенда_об_Аанге/ 
+ 1982  cd Аватар\:_Легенда_об_Аанге/
+ 1983  cat *
+ 1984  cat Аанг/info.txt - Азула/info.txt - Зуко/info.txt > ../last5.txt
+ 1985  cd ..
+ 1986  cat last5.txt 
+ 1987  cd Аватар\:_Легенда_об_Аанге/
+ 1988  cat Аанг/info.txt - Азула/info.txt - Зуко/info.txt > ../last5.txt
+ 1989  cd /home/svk/HDD/svk/МЭИ/Сем7/OS/Labs/OS-Labs/lab2/
+ 1990  ls
+ 1991  cat last5.txt 
+ 1992  cd Аватар\:_Легенда_об_Аанге/
+ 1993  cat Аанг/info.txt - Азула/info.txt - Зуко/info.txt > ../last5.txt
+ 1994  cd ..
+ 1995  cat last5.txt 
+ 1996  cd Аватар\:_Легенда_об_Аанге/
+ 1997  cat Аанг/info.txt - Азула/info.txt - Зуко/info.txt > ../last5.txt
+ 1998  cd ..
+ 1999  cat last5.txt 
+ 2000  cat *
+ 2001  cd Аватар\:_Легенда_об_Аанге/
+ 2002  cat *
+ 2003  cat /*
+ 2004  cat */
+ 2005  cat -A
+ 2006  cat -e
+ 2007  cat -A */
+ 2008  cat -A */*
+ 2009  cat */*
+ 2010  cat */* -
+ 2011  cat - */* -
+ 2012  ls ..
+ 2013  cat ../last5.txt 
+ 2014  ls
+ 2015  ls  > ../last5.txt
+ 2016  cat Аанг/info.txt - Азула/info.txt - Зуко/info.txt >> ../last5.txt
+ 2017  cat ../last5.txt 
+ 2018  cd ..
+ 2019  history -5
+ 2020  history -n 5
+ 2021* history 
+ 2022  history 5
+ 2023  history 50
+ 2024  history 100
+ 2025  history 150
+ 2026  history 150 > history.txt
